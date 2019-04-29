@@ -1,0 +1,20 @@
+{
+    "extends": "stylelint-config-standard",
+    "processors": ["@mapbox/stylelint-processor-arbitrary-tags"],
+    "plugins": ["stylelint-order"],
+    "rules": {
+        "comment-empty-line-before": null,
+        "declaration-colon-newline-after": null,
+        "indentation": 4,
+        "no-empty-source": null,
+        "no-extra-semicolons": null,
+        "number-leading-zero": null,
+        "order/properties-alphabetical-order": true,
+        "selector-pseudo-class-no-unknown": null,
+        "selector-type-no-unknown": [true, {
+            "ignore": ["custom-elements"]
+        }],
+        "shorthand-property-no-redundant-values": null,
+        "string-quotes": "double"
+    }
+}

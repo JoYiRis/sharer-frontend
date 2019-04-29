@@ -1,0 +1,44 @@
+    
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Bower components
+bower_components
+
+# NPM modules
+node_modules
+npm-debug.log
+
+# Karma
+coverage
+
+# Gulp cache
+gulp-cache
+
+# Autoprefixer patches
+*.patch
+
+# Environment configs
+config.js
+
+# Build and distribution files
+build/
+dist/
+.diff/
+.idea/*
+
+# IDE specific
+.vscode/
+
+# Cache
+.eslintcache
+.stylelintcache
+.bower_cache
+.stylelintcache-elements
