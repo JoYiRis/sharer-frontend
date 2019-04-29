@@ -1,0 +1,8 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "IM frontend",
+  "main": "index.js",
+  "author": "renjie.zhou",
+  "license": "MIT"
+}
